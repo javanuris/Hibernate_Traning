@@ -4,9 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
 
-/**
- * Created by User on 04.06.2017.
- */
+
 @Entity
 @Table(name = "customer")
 @AttributeOverride(name = "id", column = @Column(name = "id_customer"))
